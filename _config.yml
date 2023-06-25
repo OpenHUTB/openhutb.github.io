@@ -9,7 +9,6 @@ plugins: [jekyll-paginate]
 highlighter: pygments
 paginate: 20
 
-
 markdown: rdiscount
 rdiscount:
     extensions: ['smart']
