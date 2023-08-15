@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.15.3/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.15.3/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.15.3/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+          const markmap = getMarkmap();
+          window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+        })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"开源湖工商","children":[{"type":"heading","depth":1,"payload":{"lines":[4,5]},"content":"代理","children":[{"type":"heading","depth":2,"payload":{"lines":[6,7]},"content":"<a href=\"https://github.com/OpenHUTB/gpt\">交通大模型</a>","children":[]},{"type":"heading","depth":2,"payload":{"lines":[8,9]},"content":"感知","children":[{"type":"heading","depth":3,"payload":{"lines":[10,11]},"content":"<a href=\"https://github.com/OpenHUTB/customs\">行为检测</a>","children":[]},{"type":"heading","depth":3,"payload":{"lines":[12,13]},"content":"<a href=\"https://github.com/OpenHUTB/mot\">目标跟踪</a>","children":[]}]}]},{"type":"heading","depth":1,"payload":{"lines":[14,15]},"content":"交通","children":[{"type":"heading","depth":2,"payload":{"lines":[16,17]},"content":"<a href=\"https://github.com/OpenHUTB/intelligent_traffic\">智慧交通</a>","children":[]},{"type":"heading","depth":2,"payload":{"lines":[18,19]},"content":"<a href=\"https://github.com/OpenHUTB/matlab\">工业仿真软件</a>","children":[]},{"type":"heading","depth":2,"payload":{"lines":[20,21]},"content":"<a href=\"https://github.com/OpenHUTB/roadrunner\">静态仿真</a>","children":[]},{"type":"heading","depth":2,"payload":{"lines":[22,23]},"content":"<a href=\"https://github.com/OpenHUTB/roadrunner-scenario\">动态仿真</a>","children":[]},{"type":"heading","depth":2,"payload":{"lines":[24,25]},"content":"<a href=\"https://github.com/OpenHUTB/neuro_driving\">神经驾驶</a>","children":[]}]},{"type":"heading","depth":1,"payload":{"lines":[27,28]},"content":"神经","children":[{"type":"heading","depth":2,"payload":{"lines":[29,30]},"content":"<a href=\"https://github.com/OpenHUTB/neuro\">原理</a>","children":[]},{"type":"heading","depth":2,"payload":{"lines":[31,32]},"content":"<a href=\"https://github.com/OpenHUTB/bazaar\">前额叶</a>","children":[]},{"type":"heading","depth":2,"payload":{"lines":[33,34]},"content":"<a href=\"https://github.com/OpenHUTB/spm\">影像处理</a>","children":[]},{"type":"heading","depth":2,"payload":{"lines":[35,36]},"content":"<a href=\"https://github.com/OpenHUTB/onion\">洋葱</a>","children":[]},{"type":"heading","depth":2,"payload":{"lines":[37,38]},"content":"<a href=\"https://github.com/OpenHUTB/structure\">结构</a>","children":[]},{"type":"heading","depth":2,"payload":{"lines":[39,40]},"content":"<a href=\"https://github.com/OpenHUTB/object_decoding\">目标解码</a>","children":[]}]},{"type":"heading","depth":1,"payload":{"lines":[42,43]},"content":"合作","children":[{"type":"heading","depth":2,"payload":{"lines":[44,45]},"content":"排版","children":[{"type":"heading","depth":3,"payload":{"lines":[46,47]},"content":"<a href=\"https://github.com/OpenHUTB/hutb_latex\">本科毕设</a>","children":[]},{"type":"heading","depth":3,"payload":{"lines":[48,49]},"content":"<a href=\"https://github.com/OpenHUTB/master\">研究生毕设</a>","children":[]},{"type":"heading","depth":3,"payload":{"lines":[50,51]},"content":"<a href=\"https://github.com/OpenHUTB/latex\">通用</a>","children":[]}]},{"type":"heading","depth":2,"payload":{"lines":[52,53]},"content":"交流","children":[{"type":"heading","depth":3,"payload":{"lines":[54,55]},"content":"<a href=\"https://github.com/OpenHUTB/note\">笔记</a>","children":[]},{"type":"heading","depth":3,"payload":{"lines":[56,57]},"content":"<a href=\"https://github.com/OpenHUTB/robot_2022\">机器人</a>","children":[]},{"type":"heading","depth":3,"payload":{"lines":[58,59]},"content":"<a href=\"https://github.com/OpenHUTB/utils\">工具库</a>","children":[]}]}]}]},{})</script>
+</body>
+</html>
