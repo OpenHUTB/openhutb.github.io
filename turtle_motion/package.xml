@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- turtle_motion 功能包清单：小海龟自主绘制正方形轨迹 -->
+<package format="2">
+  <name>turtle_motion</name>
+  <version>0.0.0</version>
+  <description>turtle_motion: 小海龟自主绘制正方形轨迹功能包</description>
+  <maintainer email="tianyutu981@todo.todo">tianyutu981</maintainer>
+  <license>TODO</license>
+
+  <!-- 构建工具依赖 -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- 构建依赖 -->
+  <build_depend>rospy</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+
+  <!-- 运行依赖 -->
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>
