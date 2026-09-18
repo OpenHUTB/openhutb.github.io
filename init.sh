@@ -5,3 +5,9 @@ if [ ! -f pr.sh ]; then
     curl -O https://raw.githubusercontent.com/OpenHUTB/utils/refs/heads/master/git/pr.sh
     chmod +x pr.sh
 fi
+
+if [ ! -f serve.sh ]; then
+    echo "serve.sh not found, downloading from remote repository..."
+    curl -O https://raw.githubusercontent.com/OpenHUTB/template/refs/heads/master/serve.sh
+    chmod +x serve.sh
+fi
