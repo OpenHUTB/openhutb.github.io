@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # 对所有 OpenHUTB 都适用的脚本
 # 使用方法：
 #     curl -O https://openhutb.github.io/init.sh
