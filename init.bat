@@ -10,4 +10,6 @@ if not exist serve.bat (
     curl -O --ssl-no-revoke https://raw.githubusercontent.com/OpenHUTB/template/refs/heads/master/serve.bat
 )
 
+rem explorer .
+
 
