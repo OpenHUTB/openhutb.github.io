@@ -42,6 +42,12 @@ fail() {
     exit 1
 }
 
+# 当前目录下已有 hutb 文件夹，直接退出，避免直接覆盖hutb文件夹
+if [ -d "./hutb" ]; then
+    echo "该目录下已有hutb文件夹"
+    exit 0
+fi
+
 if [ -d "${DOWNLOADER}" ]; then
     fail "当前目录下的 hutb_downloader 是一个目录，请先删除它后重试。"
 fi
